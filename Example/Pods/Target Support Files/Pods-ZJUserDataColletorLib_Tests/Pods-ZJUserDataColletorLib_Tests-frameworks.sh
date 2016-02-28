@@ -84,8 +84,14 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-ZJUserDataColletorLib_Tests/AFNetworking.framework"
+  install_framework "Pods-ZJUserDataColletorLib_Tests/FMDB.framework"
+  install_framework "Pods-ZJUserDataColletorLib_Tests/ZJTools.framework"
   install_framework "Pods-ZJUserDataColletorLib_Tests/ZJUserDataColletorLib.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-ZJUserDataColletorLib_Tests/AFNetworking.framework"
+  install_framework "Pods-ZJUserDataColletorLib_Tests/FMDB.framework"
+  install_framework "Pods-ZJUserDataColletorLib_Tests/ZJTools.framework"
   install_framework "Pods-ZJUserDataColletorLib_Tests/ZJUserDataColletorLib.framework"
 fi

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18E1F56C1C83002500F2EEFE /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E1F56B1C83002500F2EEFE /* libz.tbd */; };
+		18E1F56E1C83002E00F2EEFE /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E1F56D1C83002E00F2EEFE /* libsqlite3.tbd */; };
 		5C750E9E7C03F41E07F99FC2 /* Pods_ZJUserDataColletorLib_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CEEDB82CBB4C9887E07F721 /* Pods_ZJUserDataColletorLib_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -39,6 +41,8 @@
 		00EB74DD349B615872F0EE08 /* Pods_ZJUserDataColletorLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZJUserDataColletorLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BDB40EB6A916DA5B904118B /* Pods-ZJUserDataColletorLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJUserDataColletorLib_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZJUserDataColletorLib_Example/Pods-ZJUserDataColletorLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		0F4837A707C8FE604B561916 /* Pods-ZJUserDataColletorLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJUserDataColletorLib_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZJUserDataColletorLib_Tests/Pods-ZJUserDataColletorLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		18E1F56B1C83002500F2EEFE /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		18E1F56D1C83002E00F2EEFE /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		22208B8E7417760607982FF5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4F2CF1B621423D52EB2590F4 /* Pods-ZJUserDataColletorLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJUserDataColletorLib_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZJUserDataColletorLib_Tests/Pods-ZJUserDataColletorLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ZJUserDataColletorLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJUserDataColletorLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,6 +76,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E1F56E1C83002E00F2EEFE /* libsqlite3.tbd in Frameworks */,
+				18E1F56C1C83002500F2EEFE /* libz.tbd in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -117,6 +123,8 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				18E1F56D1C83002E00F2EEFE /* libsqlite3.tbd */,
+				18E1F56B1C83002500F2EEFE /* libz.tbd */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -516,6 +524,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZJUserDataColletorLib/ZJUserDataColletorLib-Prefix.pch";
 				INFOPLIST_FILE = "ZJUserDataColletorLib/ZJUserDataColletorLib-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -532,6 +541,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZJUserDataColletorLib/ZJUserDataColletorLib-Prefix.pch";
 				INFOPLIST_FILE = "ZJUserDataColletorLib/ZJUserDataColletorLib-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

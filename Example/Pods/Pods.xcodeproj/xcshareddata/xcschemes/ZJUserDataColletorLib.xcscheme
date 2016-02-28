@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '6D881FC9024C8811C0001A08'
+               BlueprintIdentifier = '2B37EE42D87C807D87BFD15D'
                BlueprintName = 'ZJUserDataColletorLib'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'ZJUserDataColletorLib.framework'>

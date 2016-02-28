@@ -1,5 +1,27 @@
 PODS:
-  - ZJUserDataColletorLib (0.1.0)
+  - AFNetworking (3.0.4):
+    - AFNetworking/NSURLSession (= 3.0.4)
+    - AFNetworking/Reachability (= 3.0.4)
+    - AFNetworking/Security (= 3.0.4)
+    - AFNetworking/Serialization (= 3.0.4)
+    - AFNetworking/UIKit (= 3.0.4)
+  - AFNetworking/NSURLSession (3.0.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.0.4)
+  - AFNetworking/Security (3.0.4)
+  - AFNetworking/Serialization (3.0.4)
+  - AFNetworking/UIKit (3.0.4):
+    - AFNetworking/NSURLSession
+  - FMDB (2.6):
+    - FMDB/standard (= 2.6)
+  - FMDB/standard (2.6)
+  - ZJTools (0.1.0):
+    - AFNetworking
+  - ZJUserDataColletorLib (0.1.0):
+    - FMDB (~> 2.5)
+    - ZJTools
 
 DEPENDENCIES:
   - ZJUserDataColletorLib (from `../`)
@@ -9,6 +31,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZJUserDataColletorLib: 59ebfdd1eba8e25044785efe25d3f1891f1fcafb
+  AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
+  FMDB: c1968bab3ab0aed38f66cb778ae1e7fa9a652b6e
+  ZJTools: c428a3f0e54bfd9da18e3e5b3fc151970f06c671
+  ZJUserDataColletorLib: c9fb870811b507e267a2ae166c844ddfa345e3fa
 
 COCOAPODS: 0.39.0
