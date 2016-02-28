@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'ZJUserDataColletorLib_Example', :exclusive => true do
+  pod 'ZJUserDataColletorLib', :path => '../'
+end
+
+target 'ZJUserDataColletorLib_Tests', :exclusive => true do
+  pod 'ZJUserDataColletorLib', :path => '../'
+
+  
+end
