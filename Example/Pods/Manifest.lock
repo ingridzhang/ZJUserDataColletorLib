@@ -1,0 +1,14 @@
+PODS:
+  - ZJUserDataColletorLib (0.1.0)
+
+DEPENDENCIES:
+  - ZJUserDataColletorLib (from `../`)
+
+EXTERNAL SOURCES:
+  ZJUserDataColletorLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZJUserDataColletorLib: 59ebfdd1eba8e25044785efe25d3f1891f1fcafb
+
+COCOAPODS: 0.39.0

@@ -1,0 +1,25 @@
+{
+  "name": "ZJUserDataColletorLib",
+  "version": "0.1.0",
+  "summary": "A short description of ZJUserDataColletorLib.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/ZJUserDataColletorLib",
+  "license": "MIT",
+  "authors": {
+    "zhangjing": "542727052@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/ZJUserDataColletorLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "ZJUserDataColletorLib": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
