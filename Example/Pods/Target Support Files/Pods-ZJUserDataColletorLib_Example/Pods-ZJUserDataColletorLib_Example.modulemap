@@ -1,6 +1,0 @@
-framework module Pods_ZJUserDataColletorLib_Example {
-  umbrella header "Pods-ZJUserDataColletorLib_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}

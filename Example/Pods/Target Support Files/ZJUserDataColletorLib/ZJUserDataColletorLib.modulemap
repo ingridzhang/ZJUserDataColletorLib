@@ -1,6 +1,0 @@
-framework module ZJUserDataColletorLib {
-  umbrella header "ZJUserDataColletorLib-umbrella.h"
-
-  export *
-  module * { export * }
-}
