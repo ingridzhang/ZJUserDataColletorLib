@@ -32,8 +32,8 @@
     
     UIButton *btn=[[UIButton alloc] initWithFrame:CGRectMake(150, 200, 150, 150)];
     [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-    [btn setTitle:@"奔溃一下" forState:UIControlStateNormal];
-    [btn addTarget:self action:@selector(aaa:) forControlEvents:UIControlEventTouchUpInside];
+//    [btn setTitle:@"奔溃一下" forState:UIControlStateNormal];
+//    [btn addTarget:self action:@selector(aaa:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
 
 }

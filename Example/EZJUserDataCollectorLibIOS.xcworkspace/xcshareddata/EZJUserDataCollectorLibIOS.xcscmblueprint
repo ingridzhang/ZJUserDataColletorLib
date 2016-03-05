@@ -1,14 +1,16 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B47A93AC847129239ED36A3D90E1C2F65C9E331D",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "73FBD838FF200D98DFEE3F31FFE7862DE98374B3",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "73FBD838FF200D98DFEE3F31FFE7862DE98374B3" : 0,
     "B47A93AC847129239ED36A3D90E1C2F65C9E331D" : 0,
     "AD0E3BD7CB72BD5AB7D635BC07C8CB0500AFDE1E" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7208348E-12BE-43E3-8714-8A506E4462F0",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "73FBD838FF200D98DFEE3F31FFE7862DE98374B3" : "ZJUserDataColletorLib\/",
     "B47A93AC847129239ED36A3D90E1C2F65C9E331D" : "EZJUserDataCollectorLibIOS\/",
     "AD0E3BD7CB72BD5AB7D635BC07C8CB0500AFDE1E" : "EZJUserDataCollectorLibIOS\/Pod\/Classes\/MFZLibUtils\/"
   },
@@ -16,6 +18,11 @@
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
   "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/EZJUserDataCollectorLibIOS.xcworkspace",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ingridzhang\/ZJUserDataColletorLib.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "73FBD838FF200D98DFEE3F31FFE7862DE98374B3"
+    },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/maokebing\/MFZLibUtils.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
