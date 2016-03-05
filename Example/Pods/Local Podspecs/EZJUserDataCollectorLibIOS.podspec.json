@@ -1,0 +1,38 @@
+{
+  "name": "EZJUserDataCollectorLibIOS",
+  "version": "0.3.3",
+  "summary": "collector for users' data and save them",
+  "description": "collector for users' data and save them",
+  "homepage": "http://zhangjing@123.57.37.167:8089/",
+  "license": "MIT",
+  "authors": {
+    "ingridzhang": "zhangjing@ezjie.cn"
+  },
+  "source": {
+    "git": "http://123.57.37.167:8089/r/EZJUserDataCollectorLibIOS.git",
+    "tag": "0.3.3"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "EZJUserDataCollectorLibIOS": [
+      "Pod/Assets/*.png"
+    ]
+  },
+  "public_header_files": "Pod/Classes/**/*.h",
+  "libraries": "z",
+  "dependencies": {
+    "EZFramework": [
+
+    ],
+    "FMDB": [
+      "~> 2.5"
+    ],
+    "EZJCrashCollectorIOS": [
+      "~> 1.1.0"
+    ]
+  }
+}

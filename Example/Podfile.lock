@@ -1,0 +1,67 @@
+PODS:
+  - AFNetworking (3.0.4):
+    - AFNetworking/NSURLSession (= 3.0.4)
+    - AFNetworking/Reachability (= 3.0.4)
+    - AFNetworking/Security (= 3.0.4)
+    - AFNetworking/Serialization (= 3.0.4)
+    - AFNetworking/UIKit (= 3.0.4)
+  - AFNetworking/NSURLSession (3.0.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.0.4)
+  - AFNetworking/Security (3.0.4)
+  - AFNetworking/Serialization (3.0.4)
+  - AFNetworking/UIKit (3.0.4):
+    - AFNetworking/NSURLSession
+  - EZFramework (2.2.2):
+    - EZFramework/Base (= 2.2.2)
+    - EZFramework/DataAccess (= 2.2.2)
+    - EZFramework/SkinManager (= 2.2.2)
+    - EZFramework/UIComponent (= 2.2.2)
+    - EZFramework/Utility (= 2.2.2)
+  - EZFramework/Base (2.2.2):
+    - AFNetworking
+    - MGJRouter
+    - MJExtension
+  - EZFramework/DataAccess (2.2.2):
+    - EZFramework/Base
+    - LKDBHelper
+    - MJExtension
+  - EZFramework/SkinManager (2.2.2)
+  - EZFramework/UIComponent (2.2.2):
+    - SVProgressHUD
+  - EZFramework/Utility (2.2.2)
+  - EZJCrashCollectorIOS (1.1.0)
+  - EZJUserDataCollectorLibIOS (0.3.3):
+    - EZFramework
+    - EZJCrashCollectorIOS (~> 1.1.0)
+    - FMDB (~> 2.5)
+  - FMDB (2.6):
+    - FMDB/standard (= 2.6)
+  - FMDB/standard (2.6)
+  - LKDBHelper (2.1.8):
+    - FMDB
+  - MGJRouter (0.9.1)
+  - MJExtension (3.0.10)
+  - SVProgressHUD (1.1.3)
+
+DEPENDENCIES:
+  - EZJUserDataCollectorLibIOS (from `../`)
+
+EXTERNAL SOURCES:
+  EZJUserDataCollectorLibIOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
+  EZFramework: 7c3e66a504e871df1880d17cfd5ce1eea7f24ace
+  EZJCrashCollectorIOS: fea8d3422c81a4f6a2e089ec5cca60c9bc6ec000
+  EZJUserDataCollectorLibIOS: ba85cd83b7c11cdb904ae4247a221f8e8e08b208
+  FMDB: c1968bab3ab0aed38f66cb778ae1e7fa9a652b6e
+  LKDBHelper: 1b55f67e44f34af8828b31aa36b36141fdde03a8
+  MGJRouter: 73b7d7f9329186d670068888e56e095084208b4c
+  MJExtension: d86aacb740c87519d20e3cca55b6fa4be6cc7548
+  SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
+
+COCOAPODS: 0.39.0

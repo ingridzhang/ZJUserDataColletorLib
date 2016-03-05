@@ -1,0 +1,1 @@
+../../../EZJCrashCollectorIOS/Pod/Classes/UncaughtExceptionHandler.h

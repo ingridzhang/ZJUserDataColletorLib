@@ -1,0 +1,15 @@
+source 'http://zhangjing@123.57.37.167:8089/r/podspecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '7.0'
+
+target 'EZJUserDataCollectorLibIOS_Example', :exclusive => true do
+  pod "EZJUserDataCollectorLibIOS", :path => "../"
+#  pod "EZJGCDSocketLib", :git => "http://zhangjing@123.57.37.167:8089/r/EZJGCDSocketLibIOS.git"
+#  pod "EZJAppEnvUtilsIOS", :git => "http://zhangjing@123.57.37.167:8089/r/EZJAppEnvUtilsIOS.git"
+end
+
+target 'EZJUserDataCollectorLibIOS_Tests', :exclusive => true do
+  pod "EZJUserDataCollectorLibIOS", :path => "../"
+
+end
